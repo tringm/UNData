@@ -1,0 +1,4 @@
+method, result, errors, failures, elapsed
+test_client.TestClient.test_get_all_flows, success, [], [], 0.246425
+test_client.TestClient.test_request, success, [], [], 0.303881
+test_client.TestClient.test_wrong_request, success, [], [], 0.137912

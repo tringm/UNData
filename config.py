@@ -2,7 +2,13 @@ from pathlib import Path
 import logging
 
 
-def root_path():
+LOG_MAX_STR_LEN = 250
+global DEFAULT_INPUT_FOLDER, DEFAULT_OUTPUT_FOLDER
+DEFAULT_INPUT_FOLDER = Path(__file__).parent / 'test' / 'io' / 'int'
+DEFAULT_OUTPUT_FOLDER = Path(__file__).parent / 'test' / 'io' / 'out'
+
+
+def root_path() -> Path:
     return Path(__file__).parent
 
 
