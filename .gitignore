@@ -1,0 +1,8 @@
+#IDEA
+.idea/
+
+#Pycache
+__pycache__/
+
+#log files
+*.log
